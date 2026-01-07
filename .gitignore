@@ -1,0 +1,23 @@
+# Security
+.env
+.env.local
+
+# Python Compilation Junk
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Logs & Screenshots 
+logs/
+*.log
+*.png
+*_debug.png
+
+# IDE Settings
+.vscode/
+.idea/
