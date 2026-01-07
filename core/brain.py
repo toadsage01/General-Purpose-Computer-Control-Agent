@@ -15,10 +15,10 @@ class Brain:
         if not self.api_key:
             raise ValueError("GROQ_API_KEY not found in .env file")
             
-        # Initialize Groq Client
+        # Groq Client
         self.client = Groq(api_key=self.api_key)
         
-        # We use the 11B Vision model (Fast & Free Tier friendly)
+        # 11B Vision model (Fast & Free Tier)
         self.model_name = "meta-llama/llama-4-scout-17b-16e-instruct"
 
     def _encode_image(self, image_path):
